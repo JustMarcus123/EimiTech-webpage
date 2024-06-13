@@ -1,17 +1,5 @@
-
-
-
-
-
 function App() {
-
-
-  return (
-    <>
-
-      hello World
-    </>
-  )
+  return <>hello World</>;
 }
 
-export default App
+export default App;
