@@ -23,7 +23,7 @@ We love your input! Here's how you can get started:
 4. **Submit a pull request** with a clear description of your changes.
 
 Checkout our main repositories
-- [EimiTechInnovations website](https://github.com/EimiTech-Innovations/EimiTech-webpage/tree/main/client)
+- [EimiTechInnovations frontend](https://github.com/EimiTech-Innovations/EimiTech-webpage/tree/main/client)
 
 <!-- For detailed contribution guidelines, please refer to our [Contributing Guide](CONTRIBUTING.md). -->
 
