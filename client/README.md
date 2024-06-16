@@ -40,21 +40,32 @@ yarn install
 ### Start the Development Server - to see your changes live 
 ```
 yarn dev 
-
+```
 
 ## Project Structure
 ```
 client/
+
 ├── public/             # Static assets
+
 ├── src/                # Source code
+
 │   ├── assets/         # Images, fonts, etc.
+
 │   ├── components/     # Reusable UI components
+
 │   ├── pages/          # Page components
+
 │   ├── App.jsx         # Main App component
+
 │   ├── index.jsx       # Entry point
+
 │   └── ...             # Other files
+
 ├── .gitignore          # Git ignore file
+
 ├── package.json        # Project metadata and dependencies
+
 └── vite.config.js      # Vite configuration
 ```
 
@@ -76,24 +87,24 @@ To suggest a new feature or enhancement, open an issue with:
 - Any additional context or examples.
 
 
-##  Submitting Pull Requests 
-- Create a branch: Branch off from main for your work
+###  Submitting Pull Requests 
+1. Create a branch: Branch off from main for your work
 ``` 
 git checkout -b feat/your-feature-name
 ```
+2. Make your changes: Implement your features or bug fix 
+3. Commit your changes: Write a clear and concise commit message
 
-- Make your changes: Implement your features or bug fix 
-- Commit your changes: Write a clear and concise commit message
 ```
 git add .
 git commit -m "add feature or fix description"
-
-- Push to your fork 
+```
+4. Push to your fork
 ```
 git push origin feature/your-feature-name
 ```
 
-- Open a Pull request: Go to the original repository on GitHub an dopen a pull request from your fork
+5. Open a Pull request: Go to the original repository on GitHub and open a pull request from your fork
 
 ## Code Review Process 
 All submissions, including pull requests, will undergo a code review. We expect your code to meet the following criteria:
