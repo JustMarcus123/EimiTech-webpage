@@ -1,13 +1,16 @@
 import React from "react";
 import Layout from "./Layout/Layout";
-import ComingSoon from "./Pages/ComingSoon";
+
+import Nav from "./Components/Nav";
+import HeroSection from "./Pages/HeroSection";
 
 
 const Home: React.FC = () => {
   return (
     <div>
       <Layout>
-        <ComingSoon />
+        <Nav />
+        <HeroSection />
       </Layout>
     </div>
   );
