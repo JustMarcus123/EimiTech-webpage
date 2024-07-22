@@ -7,8 +7,17 @@ export default {
       backgroundImage: {
         heroBg: "url('./assets/hero-bg.png')",
       },
+
       height: {
         heroHeight: "500px",
+      },
+      fontFamily: {
+        starDos: ["Stardos Stencil"],
+      },
+      colors: {
+        btnBg: "#15252A",
+        bgText: "#01B399",
+        btnHover: "#2B4651",
       },
     },
   },

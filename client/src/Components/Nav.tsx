@@ -43,8 +43,8 @@ const Nav = () => {
                 </ul>
             </div>
             <div className="gap-3 navbar-end">
-                <a className="rounded-sm btn">Contact Us</a>
-                <a className="rounded-sm btn">Join Us</a>
+                <a className="rounded-sm btn bg-btnBg text-bgText w-30 hover:bg-btnHover">Contact Us</a>
+                <a className="rounded-sm w-30 btn bg-btnBg text-bgText hover:bg-btnHover">Join us...</a>
             </div>
         </div>
     )
