@@ -1,8 +1,6 @@
-import React, { ReactNode } from 'react';
+import React from 'react';
+import { LayoutProps } from '../types/layout';
 
-interface LayoutProps {
-  children: ReactNode;
-}
 
 const Layout: React.FC<LayoutProps> = ({ children }) => {
   return <div>{children}</div>;
