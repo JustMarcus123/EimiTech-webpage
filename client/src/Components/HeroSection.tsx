@@ -3,7 +3,7 @@ import heroImage from "../assets/hero-image.png"
 
 const HeroSection: React.FC = () => {
     return (
-        <div className='flex flex-col-reverse items-center justify-center pl-10 pr-10 border md:flex-row bg-heroBg'>
+        <div className='flex flex-col-reverse items-center justify-center pl-10 pr-10 border md:py-24 md:flex-row bg-heroBg'>
             <div className='text-center md:text-left '>
                 <h3 className='py-2 text-2xl font-medium'> PROMOTE</h3>
                 <h1 className='text-6xl font-bold font-starDos'> TECHNOLOGY <br />
