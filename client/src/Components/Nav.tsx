@@ -1,5 +1,5 @@
 import React from 'react'
-
+import eimiTechLogo from "../assets/main-logo.svg"
 const Nav = () => {
     return (
         <div className="shadow-md navbar bg-base-100">
@@ -30,7 +30,9 @@ const Nav = () => {
                         <li><a>About</a></li>
                     </ul>
                 </div>
-                <a className="p-2 text-xl font-medium ">Eimi Tech</a>
+                <a className="p-2 text-xl font-medium ">
+                    <img src={eimiTechLogo} alt="Eimi Tech Innovation" />
+                </a>
             </div>
             <div className="hidden navbar-center lg:flex">
                 {/* TODO:active  */}
