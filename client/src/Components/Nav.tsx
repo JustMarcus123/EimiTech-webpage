@@ -1,6 +1,6 @@
 import React from 'react'
 import eimiTechLogo from "../assets/main-logo.svg"
-const Nav = () => {
+const Nav: React.FC = () => {
     return (
         <div className="shadow-md navbar bg-base-100">
             <div className="navbar-start">
