@@ -3,6 +3,9 @@ import ComingSoon from './ComingSoon'
 
 export const Work: React.FC = () => {
     return (
-        <ComingSoon title='Services/Work section: coming soon 😊' />
+        <div id='services'>
+            <ComingSoon title='Services/Work section: coming soon 😊' />
+        </div>
+
     )
 }
