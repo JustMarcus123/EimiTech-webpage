@@ -5,18 +5,18 @@ const Nav: React.FC = () => {
         <div className="shadow-md navbar bg-base-100">
             <div className="navbar-start">
 
-                <a className="text-xl font-medium ">
+                <a href="/" className="text-xl font-medium ">
                     <img src={eimiTechLogo} alt="Eimi Tech Innovation" />
                 </a>
             </div>
             <div className="hidden navbar-center lg:flex">
                 {/* TODO:active  */}
                 <ul className="px-1 menu menu-horizontal">
-                    <li><a> Mission</a></li>
+                    <li><a href='#mission'> Mission</a></li>
                     <li>
-                        <a> Services </a>
+                        <a href='#services'> Services </a>
                     </li>
-                    <li><a> About </a></li>
+                    <li><a href='#about'> About </a></li>
                 </ul>
             </div>
             <div className="gap-3 navbar-end">

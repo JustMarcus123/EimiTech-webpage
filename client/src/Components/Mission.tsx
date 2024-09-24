@@ -5,7 +5,7 @@ import ComingSoon from './ComingSoon'
 const Mission: React.FC = () => {
     const title = "Mission section: coming soon 😊"
     return (
-        <div>
+        <div id='mission'>
 
             <ComingSoon title={title} />
         </div>
