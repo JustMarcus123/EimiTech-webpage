@@ -13,7 +13,7 @@ const Mission: React.FC = () => {
             <p> &quot;Technology is best when it brings people together&quot;</p>
             <em> ~ Matt Mullenweg, Founder of WordPress </em>
 
-            <section className='flex flex-wrap items-center gap-10 py-14'>
+            <section className='flex flex-wrap items-center gap-10 md:flex-nowrap py-14'>
                 {/* one */}
                 <div className='mx-auto text-center'>
                     <img className="h-32 mx-auto md:h-60" src={innovateLives} alt="Innovate Lives" />
