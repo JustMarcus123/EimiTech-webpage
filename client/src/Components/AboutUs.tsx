@@ -1,12 +1,15 @@
 import React from 'react'
+
 import about1 from '../assets/about1.png'
 import about2 from '../assets/about2.png'
 import about3 from '../assets/about3.png'
 // import ComingSoon from './ComingSoon'
 
 
+
 export const AboutUs: React.FC = () => {
     return (
+
         <div id='about' className='flex flex-col md:flex-row items-center  bg-cover border py-8 md:py-16 bg-heroBg px-4 md:px-8 lg:px-16'>
   {/* Left side - Images */}
   <div className='flex items-center justify-center gap-4 md:gap-6 md:w-1/2 mb-8 md:mb-0'>
@@ -52,5 +55,28 @@ export const AboutUs: React.FC = () => {
 
 
 
+
+                <ul className='list-image-triangle'>
+                    <li className='mb-5 font-bold'>
+                        <p className='absolute '>Workshops and Training </p>
+                        <p className='pt-5 font-normal'>
+                            Create a recognizable and trustworthy brand that resonates deeply with our target audience, reflecting our values and commitment to excellence.
+                        </p>
+                    </li>
+
+                    <li className='pb-4 font-bold'>IT & Software solution <br />
+                        <span className='font-normal'>
+                            Delivering innovative IT and software solutions tailored to meet your plans and ideas and overcome its challenges, ensuring everything  works together smoothly
+                        </span>
+                    </li>
+                    <li className='font-bold '> Continuous Learning and Adaption <br />
+                        <span className='font-normal'>
+                            Cultivating a culture of ongoing learning and adaptability within your organization to stay ahead in the ever-evolving digital landscape.
+                        </span>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
     )
 }

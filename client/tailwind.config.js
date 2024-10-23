@@ -19,6 +19,9 @@ export default {
         bgText: "#01B399",
         btnHover: "#2B4651",
       },
+      listStyleImage: {
+        triangle: 'url("./src/assets/triangle.svg")',
+      },
     },
   },
   plugins: [daisyui],

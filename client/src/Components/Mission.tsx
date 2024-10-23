@@ -12,7 +12,6 @@ const Mission: React.FC = () => {
             {/* TODO:Quote should be dynamic */}
             <p> &quot;Technology is best when it brings people together&quot;</p>
             <em> ~ Matt Mullenweg, Founder of WordPress </em>
-
             <section className='flex flex-col md:flex-row items-center justify-center gap-16 py-14 py-10 pl-10 pr-10'>
 
   {/* One */}
@@ -36,7 +35,6 @@ const Mission: React.FC = () => {
     <p>Reshaping the digital landscape with cutting-edge technologies that redefine how businesses and communities operate</p>
   </div>
 </section>
-
 
         </div>
     )
